@@ -56,11 +56,11 @@ Retorna todas as transações.
 Para processar os dados de transação, segue uma documentação abaixo:
 
 | Tipos de transação | Descrição    |
+|--------------------|--------------|
 | 1                  | Débito       |
 | 2                  | Crédito      |
 | 3                  | Pix          |
 | 4                  | Financiamento|
-
 
 
 | Posição | Descrição                    |
