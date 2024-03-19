@@ -20,7 +20,7 @@ Note que abaixo mostra o payload da API e uma documentação sobre o que a sequ�
 Acesse o terminal e navegue até o diretório Server de dentro do seu clone do projeto, rode o comando npm install e em seguida npm start para executar o servidor.
 
 # API
-## GET /api/v1/getTransactions
+## GET /api/v1/transactions/getTransactions
 
 Retorna todas as transações.
 
