@@ -52,12 +52,16 @@ Retorna todas as transações.
 ```
 
 # CNAB
-Para processar os dados de transação, segue uma documentação abaixo;
+
+Para processar os dados de transação, segue uma documentação abaixo:
+
 | Tipos de transação | Descrição    |
 | 1                  | Débito       |
 | 2                  | Crédito      |
 | 3                  | Pix          |
 | 4                  | Financiamento|
+
+
 
 | Posição | Descrição                    |
 |---------|------------------------------|
