@@ -16,6 +16,9 @@ para executar o back-end corretamente consumir a API para trabalhar com seus dad
 O Candidato precisa fazer o uso da API disponibilizada, fazer o parse/tratamento dos dados para que seja exibído em uma rota de view, tendo liberdade total para atender essa tarefa.
 Note que abaixo mostra o payload da API e uma documentação sobre o que a sequência de números de transactionData representa.
 
+# Como executar o back-end
+Acesse o terminal e navegue até o diretório Server de dentro do seu clone do projeto, rode o comando npm install e em seguida npm start para executar o servidor.
+
 # API
 ## GET /api/v1/getTransactions
 
