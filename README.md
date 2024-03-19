@@ -1,6 +1,6 @@
-#Teste técnico dev front-end
+# Teste técnico dev front-end
 
-#Descrição
+# Descrição
 Neste teste técnico o candidato irá trabalhar com dados de transação no padrão CNAB, consumindo uma API construída no back-end disponível. Abaixo terão instruções
 para executar o back-end corretamente consumir a API para trabalhar com seus dados no front-end.
 
@@ -12,11 +12,11 @@ para executar o back-end corretamente consumir a API para trabalhar com seus dad
 - O candidato deve fazer um clone do repositório em sua máquina e subir um fork no seu github, realizando commits com mensagens coerentes
 - Este projeto não possui nenhuma conexão com um banco de dados, sendo assim, não haverá a necessidade de instalar nenhum previamente.
 
-#Sobre o desafio
+# Sobre o desafio
 O Candidato precisa fazer o uso da API disponibilizada, fazer o parse/tratamento dos dados para que seja exibído em uma rota de view, tendo liberdade total para atender essa tarefa.
 Note que abaixo mostra o payload da API e uma documentação sobre o que a sequência de números de transactionData representa.
 
-#API
+# API
 ## GET /api/v1/getTransactions
 
 Retorna todas as transações.
@@ -51,7 +51,7 @@ Retorna todas as transações.
 }
 ```
 
-#CNAB
+# CNAB
 Para processar os dados de transação, segue uma documentação abaixo;
 
 | Posição | Descrição                    |
