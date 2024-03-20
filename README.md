@@ -9,7 +9,7 @@ para executar o back-end corretamente consumir a API para trabalhar com seus dad
 - O candidato precisa obrigatoriamente utilizar o React com um empacatador, podendo usar o Vite, Webpack ou similar
 - Deixe o projeto React dentro da pasta Client para manter o desacoplamento das pasta e arquivos entre back-end e front-end
 - Back-end está sendo executado na porta 5000. O candidato tem liberdade total para alterar a porta no qual o servidor vai escutar.
-- O candidato deve fazer um clone do repositório em sua máquina e subir um fork no seu github, realizando commits com mensagens coerentes
+- O candidato deve fazer um fork ou um clone deste repositório e disponibiliar o link do mesmo como resposta ao desafio.
 - Este projeto não possui nenhuma conexão com um banco de dados, sendo assim, não haverá a necessidade de instalar nenhum previamente.
 
 # Sobre o desafio
