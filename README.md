@@ -68,13 +68,13 @@ Para processar os dados de transação, segue uma documentação abaixo:
 
 | Posição | Descrição                    |
 |---------|------------------------------|
-| 0       | Tipo da transação.           |
-| 1 a 8   | Data da ocorrência.          |
-| 9 - 10  | Valor da transação.          |
-| 19 - 11 | CPF                          |
-| 30 - 12 | Cartão(Parcialmente visível).|
-| 42 - 13 | Dono da loja.                |
-| 56 - 18 | Nome da loja.                |
+| 0 a 1   | Tipo da transação.           |
+| 1 a 9   | Data da ocorrência.          |
+| 9 a 19  | Valor da transação.          |
+| 19 a 30 | CPF                          |
+| 30 a 42 | Cartão(Parcialmente visível).|
+| 42 a 56 | Dono da loja.                |
+| 56      | Nome da loja.                |
 
 ## Exemplo
 CNAB: 3202301020000015100195514960781753****3153AFONSO PEREIRAADEGA PEREIRA
