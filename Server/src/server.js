@@ -2,9 +2,11 @@ const express = require("express");
 const transactionsRoutes = require("./API/Routes/transactions");
 const server = express();
 const local = "[ SERVER ]";
+const cors = require("cors");
 const port = 5000;
 
 function DefineMiddlewares() {
+    server.use(cors());
     server.use(express.json());
     server.use(transactionsRoutes.MapRoutes());
 }
