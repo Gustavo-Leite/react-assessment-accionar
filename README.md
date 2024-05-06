@@ -87,5 +87,24 @@ CNAB: 3202301020000015100195514960781753****3153AFONSO PEREIRAADEGA PEREIRA
 - Dono da Loja (posições 42 a 56): AFONSO PEREIRA
 - Nome da Loja (posições 56): ADEGA PEREIRA
 
+#
 
+# Execução do Front-End
+Após realizer os procedimentos de execução do back-end, abra outro terminal no mesmo diretório do clone do projeto e prossiga com o passo a passo.
 
+#### Navegue até o diretório do aplicativo
+```bash
+cd Client
+```
+
+#### Instale dependências.
+```bash
+npm install
+```
+
+#### Inicie o servidor de desenvolvimento.
+```bash
+npm run dev
+```
+
+Abra [http://localhost:5173](http://localhost:5173) com seu navegador para ver o resultado.
