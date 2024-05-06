@@ -90,7 +90,7 @@ CNAB: 3202301020000015100195514960781753****3153AFONSO PEREIRAADEGA PEREIRA
 #
 
 # Execução do Front-End
-Após realizer os procedimentos de execução do back-end, abra outro terminal no mesmo diretório do clone do projeto e prossiga com o passo a passo.
+Após realizar os procedimentos de execução do back-end, abra outro terminal no mesmo diretório do clone do projeto e prossiga com o passo a passo.
 
 #### Navegue até o diretório do aplicativo
 ```bash
