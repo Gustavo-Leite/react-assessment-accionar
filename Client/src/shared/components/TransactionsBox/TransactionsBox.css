@@ -5,12 +5,15 @@
 
 .transactions-main {
   display: flex;
-  width: 40rem;
+  width: 70rem;
+  min-height: 80vh;
   flex-direction: column;
   padding: 1rem;
   gap: 1.25rem;
-  border: 1px solid #94a3b8;
-  border-radius: 0.5rem;
+  border: 1.5px solid #020617;
+  box-shadow: 1px 1.5px 5px black;
+  background-color: #fff3ff;
+  border-radius: 0.25rem;
 }
 
 .transactions-header {
@@ -19,6 +22,8 @@
   justify-content: space-between;
 
   .title {
+    display: flex;
+    gap: 0.5rem;
     padding-left: 0.15rem;
     font-size: 1.60rem;
     font-weight: 700;
@@ -30,19 +35,33 @@
   flex-direction: column;
   align-items: center;
 
-  .error-message {
-    font-weight: 600;
-    font-size: 1.10rem;
-    color: #64748B;
+  .error {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+
+    .error-message {
+      font-weight: 600;
+      font-size: 1.10rem;
+      color: #020617;
+    }
   }
 
   .transactions-box {
-    width: 100%;
+    display: grid;
+    justify-content: center;
   }
 
   .transactions-datas {
-    border: 1px solid #94a3b8;
+    border: 1.5px solid #020617;
+    box-shadow: inset 0px 0px 3px #000;
     word-wrap: break-word;
+  }
+
+  .transactions-datas:hover {
+    -xpedu-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.01);
   }
 }
 
@@ -52,10 +71,11 @@
   gap: 0.5rem;
 
   .transaction-info {
-    font-weight: 600;
+    font-weight: 700;
 
     .data {
-      font-weight: 400;
+      font-weight: 600;
+      color: #1e293b;
     }
   }
 }
@@ -67,21 +87,61 @@ ul {
 li {
   margin-bottom: 1rem;
   padding: 1rem;
-  border: 1px solid #94a3b8;
-  border-radius: 0.5rem;
+  border: 1.5px solid #020617;
+  border-radius: 0.25rem;
 }
 
-@media (max-width: 495px) {
+@media (min-width: 1200px) {
+  .transactions-box {
+    grid-template-columns: repeat(3, 22rem);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .transactions-main {
+    width: 47rem;
+  }
+
+
+  .transactions-box {
+    grid-template-columns: repeat(2, 22rem);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+}
+
+@media (min-width: 695px) and (max-width: 800px) {
+  .transactions-main {
+    width: 41rem;
+  }
+
+  .transactions-box {
+    grid-template-columns: repeat(2, 19rem);
+    grid-column-gap: 0.75rem;
+    grid-row-gap: 1rem;
+  }
+}
+
+@media (max-width: 695px) {
   .transactions-header {
-    justify-content: center;
+    flex-direction: column;
 
     .title {
-      display: none;
+      display: flex;
+      justify-content: center;
+      margin-right: 1rem;
     }
   }
 
+  .transactions-box {
+    grid-template-columns: repeat(1, 100%);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+
   .transactions-main {
-    width: 100%;
-    padding: 0.75rem;
+    width: 24rem;
   }
 }

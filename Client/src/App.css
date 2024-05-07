@@ -1,10 +1,11 @@
 .App {
   font-family: Arial, sans-serif;
   margin: 2rem;
+  min-height: 100vh;
 }
 
 .box {
-  border: 1px solid #02d99d;
-  border-radius: 0.5rem;
+  border: 1.5px solid #02d99d;
+  border-radius: 0.25rem;
   padding: 1rem;
 }

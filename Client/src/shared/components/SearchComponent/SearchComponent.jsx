@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './SearchComponent.css'
+import './SearchComponent.css';
 
 export const SearchComponent = ({ transactions, setFiltered }) => {
 
