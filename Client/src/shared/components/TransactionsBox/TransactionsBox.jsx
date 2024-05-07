@@ -32,7 +32,7 @@ export const TransactionsBox = () => {
     const { transactionData, transactionId } = transaction;
 
     const transactionNumber = transactionData.slice(0, 42);
-    const name = transactionData.slice(-27, 100);
+    const name = transactionData.slice(42, 100);
 
     return (
       <div className='transactions-data' key={transactionId}>
